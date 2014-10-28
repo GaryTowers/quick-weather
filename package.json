@@ -1,0 +1,16 @@
+{
+  "name": "Weather",
+  "version": "0.0.0",
+  "description": "Weather",
+  "main": "app.js",
+  "author": {
+    "name": "Gary Torres",
+    "email": ""
+  },
+  "dependencies": {
+    "express": "3.4.4",
+    "jade": "*",
+    "stylus": "*",
+    "express-useragent": "~0.1.2"
+  }
+}

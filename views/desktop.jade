@@ -1,0 +1,24 @@
+extends layout
+
+block content
+	link(rel='stylesheet', href='/stylesheets/desk-style.css')
+
+	#weather-box.animated
+		.location-container
+			.city-switch
+		.information-container
+			.information
+				.item
+					.title Today
+					i.wi.wi-day-sunny-overcast
+					.current-temp
+					span.min-temp
+					span.max-temp
+				.item
+					.title Wind
+					i.wi.wi-strong-wind
+					.wind-speed
+				.item
+					.title Humidity
+					i.wi.wi-sprinkle
+					.humidity		

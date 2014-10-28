@@ -1,0 +1,33 @@
+extends layout
+
+block content
+	link(rel='stylesheet', href='/stylesheets/mobile-style.css')
+
+	#weather-box.animated
+		.location-container
+			.city-switch
+		.information-container
+			
+			ul.information
+				li.item(style="height: 100px")
+					.label(style="padding-top: 25px")
+						i.wi.wi-day-sunny-overcast
+						.title Today
+					.info
+						.current-temp
+						.description
+						span.min-temp
+						span.max-temp
+				li.item
+					.label
+						i.wi.wi-strong-wind
+						.title Wind
+					.info
+						.wind-speed
+				li.item
+					.label
+						i.wi.wi-sprinkle
+						.title Humidity
+					.info
+						.humidity
+				li.item

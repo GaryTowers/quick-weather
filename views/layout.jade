@@ -1,0 +1,19 @@
+doctype HTML
+html
+	head
+		meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1")
+		title= title
+		link(rel='stylesheet', href='/stylesheets/style.css')
+		link(rel='stylesheet', href='/stylesheets/weather-icons.css')
+		link(rel='stylesheet', href='/stylesheets/animate.css')
+		script(src="http://code.jquery.com/jquery-1.11.0.min.js")
+	body
+		block content
+
+		.footer
+			i.wi.wi-horizon-alt(style="font-size: 23px")
+			br
+			span Gary Torres
+
+		.loader
+		script(src='/javascripts/app.js')
